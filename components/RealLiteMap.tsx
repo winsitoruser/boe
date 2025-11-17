@@ -28,10 +28,10 @@ export default function RealLiteMap() {
       location: 'Sumatera Selatan, Indonesia',
       coordinates: [-3.3194, 104.9145] as [number, number],
       status: 'active',
-      production: '1,850 bpd',
-      tvl: '$3.2M',
+      production: 'Coming Soon',
+      tvl: '$0',
       apy: '58%',
-      stakers: 1847,
+      stakers: 0,
       pool: 'Sumatra Oil & Gas Pool',
       region: 'Southeast Asia',
       operator: 'BOIL Energy Indonesia',
@@ -42,10 +42,10 @@ export default function RealLiteMap() {
       location: 'Riau Province, Indonesia',
       coordinates: [0.5071, 101.4478] as [number, number],
       status: 'active',
-      production: '2,100 bpd',
-      tvl: '$4.1M',
+      production: 'Coming Soon',
+      tvl: '$0',
       apy: '62%',
-      stakers: 2156,
+      stakers: 0,
       pool: 'Riau Energy Pool',
       region: 'Southeast Asia',
       operator: 'BOIL Energy Indonesia',
@@ -56,10 +56,10 @@ export default function RealLiteMap() {
       location: 'Papua New Guinea',
       coordinates: [-6.3150, 143.9555] as [number, number],
       status: 'exploration',
-      production: 'Phase 2 Development',
-      tvl: '$1.8M',
+      production: 'Coming Soon',
+      tvl: '$0',
       apy: '75%',
-      stakers: 892,
+      stakers: 0,
       pool: 'PNG Gas Reserve Pool',
       region: 'Pacific',
       operator: 'BOIL Pacific Energy JV',
@@ -334,11 +334,9 @@ export default function RealLiteMap() {
                   </div>
                 </div>
 
-                {site.status === 'active' && (
-                  <button className="btn-primary w-full py-2 text-sm">
-                    Stake in {site.pool}
-                  </button>
-                )}
+                <button className="bg-gray-600 text-gray-400 w-full py-2 text-sm rounded-lg cursor-not-allowed" disabled>
+                  Coming Soon
+                </button>
               </div>
             ))}
           </div>

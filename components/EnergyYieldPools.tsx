@@ -9,10 +9,10 @@ const pools = [
     project: 'Oil Production - South Sumatra',
     location: 'Sumatera Selatan, Indonesia',
     apy: 58,
-    tvl: '$3,200,000',
-    production: '1,850 bpd',
-    stakers: 1847,
-    status: 'active',
+    tvl: '$0',
+    production: 'Coming Soon',
+    stakers: 0,
+    status: 'coming-soon',
     color: 'primary'
   },
   {
@@ -21,10 +21,10 @@ const pools = [
     project: 'Oil Field Operations - Riau Province',
     location: 'Riau, Indonesia',
     apy: 62,
-    tvl: '$4,100,000',
-    production: '2,100 bpd',
-    stakers: 2156,
-    status: 'active',
+    tvl: '$0',
+    production: 'Coming Soon',
+    stakers: 0,
+    status: 'coming-soon',
     color: 'secondary'
   },
   {
@@ -33,10 +33,10 @@ const pools = [
     project: 'LNG Development - Phase 2',
     location: 'Papua New Guinea',
     apy: 75,
-    tvl: '$1,800,000',
-    production: 'Phase 2 Development',
-    stakers: 892,
-    status: 'exploration',
+    tvl: '$0',
+    production: 'Coming Soon',
+    stakers: 0,
+    status: 'coming-soon',
     color: 'accent'
   }
 ]
@@ -101,8 +101,8 @@ export default function EnergyYieldPools() {
               </div>
 
               {/* Action Button */}
-              <button className="w-full btn-primary group-hover:scale-105 transition-transform">
-                Stake in Pool
+              <button className="w-full bg-gray-600 text-gray-400 py-3 rounded-lg cursor-not-allowed" disabled>
+                Coming Soon
               </button>
             </div>
           ))}

@@ -103,11 +103,15 @@ export default function NFTBoostSection() {
               <p className="text-sm text-gray-400">Your yield automatically multiplies based on NFT tier</p>
             </div>
           </div>
-          <div className="mt-8 text-center">
-            <button className="btn-primary px-8 py-3">
-              <Crown className="inline-block mr-2" size={20} />
-              View NFT Marketplace
-            </button>
+          <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="/marketplace" className="btn-primary px-8 py-3 inline-flex items-center">
+              <Crown className="mr-2" size={20} />
+              Browse Marketplace
+            </a>
+            <a href="/dashboard" className="btn-secondary px-8 py-3 inline-flex items-center">
+              <Award className="mr-2" size={20} />
+              View My NFTs
+            </a>
           </div>
         </div>
       </div>

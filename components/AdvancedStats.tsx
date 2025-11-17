@@ -38,48 +38,48 @@ export default function AdvancedStats() {
   const stats = [
     {
       label: 'Total Value Locked',
-      value: '$8,247,592',
-      change: '+12.5%',
-      trend: 'up',
+      value: 'Coming Soon',
+      change: '',
+      trend: 'stable',
       icon: DollarSign,
       color: 'primary',
-      detail: 'Last 30 days'
+      detail: 'Staking not yet open'
     },
     {
       label: 'Average APY',
-      value: '48.5%',
-      change: '+2.3%',
-      trend: 'up',
+      value: 'Coming Soon',
+      change: '',
+      trend: 'stable',
       icon: TrendingUp,
       color: 'secondary',
-      detail: 'Weighted average'
+      detail: 'To be announced'
     },
     {
       label: 'Active Stakers',
-      value: '3,847',
-      change: '+156',
-      trend: 'up',
+      value: '0',
+      change: '',
+      trend: 'stable',
       icon: Users,
       color: 'accent',
-      detail: 'This month'
+      detail: 'Pre-launch phase'
     },
     {
       label: 'Daily Production',
-      value: '2,850 bpd',
-      change: '+8.2%',
-      trend: 'up',
+      value: 'Coming Soon',
+      change: '',
+      trend: 'stable',
       icon: Droplet,
       color: 'success',
-      detail: 'Verified output'
+      detail: 'Operations pending'
     },
     {
       label: 'Total Rewards Distributed',
-      value: '$2.4M',
-      change: '+$245K',
-      trend: 'up',
+      value: '$0',
+      change: '',
+      trend: 'stable',
       icon: BarChart3,
       color: 'primary',
-      detail: 'All-time'
+      detail: 'Not started yet'
     },
     {
       label: 'Network Uptime',
@@ -92,21 +92,21 @@ export default function AdvancedStats() {
     },
     {
       label: 'Avg. Stake Duration',
-      value: '142 days',
-      change: '+12 days',
-      trend: 'up',
+      value: 'N/A',
+      change: '',
+      trend: 'stable',
       icon: Clock,
       color: 'secondary',
-      detail: 'Median lock period'
+      detail: 'Coming soon'
     },
     {
       label: 'Yield Efficiency',
-      value: '96.2%',
-      change: '+1.8%',
-      trend: 'up',
+      value: 'N/A',
+      change: '',
+      trend: 'stable',
       icon: Target,
       color: 'accent',
-      detail: 'Revenue to yield ratio'
+      detail: 'Coming soon'
     }
   ]
 
@@ -297,20 +297,24 @@ export default function AdvancedStats() {
           <div className="glass-card p-6">
             <div className="flex items-center justify-between mb-4">
               <h4 className="font-semibold">Treasury Health</h4>
-              <span className="badge-success">Excellent</span>
+              <span className="badge-info">Pre-Launch</span>
             </div>
             <div className="space-y-3">
               <div className="flex justify-between text-sm">
                 <span className="text-gray-400">Reserve Ratio</span>
-                <span className="font-semibold">142%</span>
+                <span className="font-semibold text-gray-500">Coming Soon</span>
               </div>
               <div className="flex justify-between text-sm">
                 <span className="text-gray-400">Buyback Balance</span>
-                <span className="font-semibold">$1.2M</span>
+                <span className="font-semibold">$0</span>
               </div>
               <div className="flex justify-between text-sm">
                 <span className="text-gray-400">DAO Treasury</span>
-                <span className="font-semibold">$480K</span>
+                <span className="font-semibold">$0</span>
+              </div>
+              <div className="flex justify-between text-sm mt-4 pt-3 border-t border-boil-border">
+                <span className="text-gray-400 text-xs">Presale Start</span>
+                <span className="font-semibold text-primary text-xs">Dec 5, 2025</span>
               </div>
             </div>
           </div>
@@ -318,20 +322,24 @@ export default function AdvancedStats() {
           <div className="glass-card p-6">
             <div className="flex items-center justify-between mb-4">
               <h4 className="font-semibold">Production Status</h4>
-              <span className="badge-success">Active</span>
+              <span className="badge-warning">Pre-Launch</span>
             </div>
             <div className="space-y-3">
               <div className="flex justify-between text-sm">
                 <span className="text-gray-400">Active Wells</span>
-                <span className="font-semibold">12 Sites</span>
+                <span className="font-semibold text-gray-500">Coming Soon</span>
               </div>
               <div className="flex justify-between text-sm">
                 <span className="text-gray-400">Operating Efficiency</span>
-                <span className="font-semibold">94.2%</span>
+                <span className="font-semibold text-gray-500">N/A</span>
               </div>
               <div className="flex justify-between text-sm">
                 <span className="text-gray-400">Monthly Growth</span>
-                <span className="font-semibold text-boil-success">+8.5%</span>
+                <span className="font-semibold text-gray-500">N/A</span>
+              </div>
+              <div className="flex justify-between text-sm mt-4 pt-3 border-t border-boil-border">
+                <span className="text-gray-400 text-xs">Operations Start</span>
+                <span className="font-semibold text-secondary text-xs">Post-Launch</span>
               </div>
             </div>
           </div>

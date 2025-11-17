@@ -9,9 +9,6 @@ import RealLiteMap from '@/components/RealLiteMap'
 import RealYieldDashboard from '@/components/RealYieldDashboard'
 import NFTBoostSection from '@/components/NFTBoostSection'
 import HowItWorks from '@/components/HowItWorks'
-import TeamPartners from '@/components/TeamPartners'
-import Testimonials from '@/components/Testimonials'
-import Roadmap from '@/components/Roadmap'
 import FAQSection from '@/components/FAQSection'
 
 export default function Home() {
@@ -26,9 +23,6 @@ export default function Home() {
       <RealYieldDashboard />
       <NFTBoostSection />
       <HowItWorks />
-      <TeamPartners />
-      <Testimonials />
-      <Roadmap />
       <FAQSection />
     </div>
   )

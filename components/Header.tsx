@@ -21,10 +21,11 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#overview" className="text-gray-300 hover:text-boil-primary transition-colors">Overview</a>
+            <a href="/" className="text-gray-300 hover:text-boil-primary transition-colors">Home</a>
+            <a href="/dashboard" className="text-gray-300 hover:text-boil-primary transition-colors">Dashboard</a>
+            <a href="/marketplace" className="text-gray-300 hover:text-boil-primary transition-colors">Marketplace</a>
+            <a href="/boilscan" className="text-gray-300 hover:text-boil-primary transition-colors">BOILScan</a>
             <a href="#pools" className="text-gray-300 hover:text-boil-primary transition-colors">Pools</a>
-            <a href="#nft" className="text-gray-300 hover:text-boil-primary transition-colors">NFT Boost</a>
-            <a href="#how-it-works" className="text-gray-300 hover:text-boil-primary transition-colors">How It Works</a>
           </nav>
 
           {/* Connect Wallet Button */}
@@ -47,10 +48,11 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden py-6 border-t border-boil-border">
             <nav className="flex flex-col space-y-4">
-              <a href="#overview" className="text-gray-300 hover:text-boil-primary transition-colors">Overview</a>
+              <a href="/" className="text-gray-300 hover:text-boil-primary transition-colors">Home</a>
+              <a href="/dashboard" className="text-gray-300 hover:text-boil-primary transition-colors">Dashboard</a>
+              <a href="/marketplace" className="text-gray-300 hover:text-boil-primary transition-colors">Marketplace</a>
+              <a href="/boilscan" className="text-gray-300 hover:text-boil-primary transition-colors">BOILScan</a>
               <a href="#pools" className="text-gray-300 hover:text-boil-primary transition-colors">Pools</a>
-              <a href="#nft" className="text-gray-300 hover:text-boil-primary transition-colors">NFT Boost</a>
-              <a href="#how-it-works" className="text-gray-300 hover:text-boil-primary transition-colors">How It Works</a>
               <button className="btn-primary w-full">
                 Connect Wallet
               </button>
